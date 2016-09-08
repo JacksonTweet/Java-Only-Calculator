@@ -1,5 +1,5 @@
 # Java *ONLY* Calculator
-Basic infromation:
+## Basic infromation: 
 Author: Jackson Tweet
 Descrition: 
 Current Version: 0.0.1
