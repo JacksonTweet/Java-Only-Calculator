@@ -19,3 +19,6 @@ Current Version: V0.0.1
 * 
 
 # Methods Caculator can use:
+
+
+# Useable: 
