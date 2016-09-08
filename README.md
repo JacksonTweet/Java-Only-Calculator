@@ -1,13 +1,13 @@
 # Java *ONLY* Calculator
 
-test
+This program is built 
 
 ## Basic infromation:
 
-Author: Jackson Tweet
+Author: Jackson Tweet & Jarred McClendon
 
 Descrition: 
 
-Current Version: 0.0.1
+Current Version: V0.0.1
 
 # Methods Caculator can use:
