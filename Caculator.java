@@ -11,12 +11,12 @@ class Caculator
     //Start commands
     int a;  
     float b;  
-    String s;  
+    String Command;  
     
     //start input area
     Scanner in = new Scanner(System.in);  
     System.out.println("Enter a command: (Dont know the commands? Type 'Help' Or go to goo.gl/7baiQK)");  
-    s = in.nextLine();  
+    Command = in.nextLine();  
     System.out.println("You entered string "+s);  
     System.out.println("Enter an integer");  
     a = in.nextInt();  
