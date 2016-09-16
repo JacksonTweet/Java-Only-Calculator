@@ -1,21 +1,23 @@
 # Java *ONLY* Calculator
 
-This program is built 
+This program is built competely in java
 
 
 
 ## Basic infromation:
 
-Author: Jackson Tweet & Jarred McClendon
+Author: 
+* Jackson Tweet
+* Jarred McClendon
 
 Descrition: 
 
-Current Version: V0.0.1
+Current Version: Dev V0.0.01
 
 # What commands will the program use?:
 
-* 
-* 
+* help
+* test
 * 
 
 # Methods Caculator can use:
