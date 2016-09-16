@@ -9,20 +9,27 @@ class Caculator
   public static void main(String args[])  
    {
     //Start commands
-    int a;  
-    float b;  
-    String Command;  
+    String error = 'Error! Command not found! type help for cammands';
+    String test = 'test dis';  
+    String help = 'this is help';  
+    
+    //input sections
+    String input;  
+    String output;
     
     //start input area
     Scanner in = new Scanner(System.in);  
-    System.out.println("Enter a command: (Dont know the commands? Type 'Help' Or go to goo.gl/7baiQK)");  
-    Command = in.nextLine();  
-    System.out.println("You entered string "+s);  
-    System.out.println("Enter an integer");  
-    a = in.nextInt();  
-    System.out.println("You entered integer "+a);  
-    System.out.println("Enter a float");  
-    b = in.nextFloat();  
-    System.out.println("You entered float "+b);   
+    System.out.println("Enter a command: (Dont know the commands? Type 'help' Or go to goo.gl/7baiQK)");  
+    input = in.nextLine();  
+    
+    if (input = help) {
+        output = 'help';
+    } else if (input = test) {
+        output = 'test';
+    } else {
+        output = 'error';
+    }
+        
+    System.out.println(""+output);
   }  
  }  
