@@ -4,12 +4,12 @@ package Calculator;
 //importing stuff
 import java.util.Scanner;  
  
-class Caculator  
+public class Caculator  
  {  
   public static void main(String args[])  
    {
     //Start commands
-    String error = "Error! Command not found! type help for cammands or check the wiki";
+    String error = "Command not found! Type 'help' For commands. (Try again)";
     String test = "test dis";  
     String help = "help";  
     
@@ -34,19 +34,17 @@ class Caculator
     
     //start input area
     Scanner in = new Scanner(System.in);  
-    System.out.println("Enter a command: (Dont know the commands? Type 'help' Or go to goo.gl/7baiQK)");  
-    input = in.nextLine();  
+    System.out.println("Enter a command: (Dont know the commands? Type 'help' Or go to goo.gl/7baiQK)");   
+    input = in.nextLine();
     
     if (input.equals("help")) {
-        output = help;
+        System.out.println(""+help);
     } else if (input.equals("test")) {
-        output = test;
+        System.out.println(""+test);
     } else {
-        output = error;
+        System.out.println(""+error);
+        in.reset();
+        input = in.nextLine();
     }
-    System.out.println();
-    System.out.println(""+output);
-    
   }  
  }  
-
